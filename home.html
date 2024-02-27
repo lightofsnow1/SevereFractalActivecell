@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home</title>
+  <style>
+    body {
+      background-color: #070707;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      height: 100vh;
+      font-family: "CustomFont", sans-serif;
+    }
+
+    .banner {
+      position: fixed;
+      left: 0;
+      top: 0;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .banner a {
+      display: block;
+      width: 300px; /* Adjust the width as needed */
+      height: 150px; /* Adjust the height as needed */
+      margin-bottom: 20px; /* Adjust the margin as needed */
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    .banner img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .footer {
+      position: fixed;
+      bottom: 0;
+      text-align: center;
+      color: #ffffff;
+      font-size: 45px;
+      padding: 10px;
+    }
+
+    #clickableImage {
+      width: 300px;
+      height: 300px;
+      object-fit: contain;
+      margin: 20px;
+      cursor: pointer;
+    }
+
+    @font-face {
+      font-family: "CustomFont";
+      src: url("https://cdn.glitch.global/3554367d-1741-41ba-9419-826fce298a98/CherryBomb-Regular.otf?v=1685585796698") format("truetype");
+    }
+  </style>
+</head>
+<body>
+  <div class="banner"> 
+    <a href="https://discord.com/invite/8PG4UKXkfm"><img src="https://www.esportsportal.com/wp-content/uploads/2019/09/discord-banner-3-750x366.png" alt="Banner Image 1"></a>
+    <a href="https://www.youtube.com/@Pogunblocked"><img src="https://www.androidauthority.com/wp-content/uploads/2019/01/YouTube-Logo.jpg" alt="Banner Image 2"></a>
+    <a href="https://www.tiktok.com/@pogunblocked"><img src="https://cornholecentral.com/wp-content/uploads/2021/02/tiktok-banner.jpg" alt="Banner Image 3"></a>
+        <a href="https://sites.google.com/view/secret-unblocked-games/home"><img src="secret unblocked games.png" alt="Banner Image 3"></a>
+  </div>
+  
+  <img id="clickableImage" src="https://i.imgur.com/Iu4CKr0.png" alt="Clickable Image">
+  
+  <div class="footer">
+    <p>click home 3 times!</p>
+  </div>
+
+  <script>
+    var clickCount = 0;
+    var clickableImage = document.getElementById("clickableImage");
+
+    clickableImage.addEventListener("click", function() {
+      clickCount++;
+
+      if (clickCount === 3) {
+        window.location.href = "https://7e575a9f-3ed5-469e-9b99-914346b606cb-00-2jt5soogmyyx8.riker.replit.dev/";
+      }
+    });
+  </script>
+</body>
+</html>

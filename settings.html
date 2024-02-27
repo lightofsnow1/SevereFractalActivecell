@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://pogmath.glitch.me/style.css">
+    <style>
+        /* Background and font styles */
+        body {
+            background-color: #f7f7f7;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            height: 100vh;
+        }
+
+        /* Container for the content */
+        #container {
+            display: flex;
+            flex-direction: column;
+            background-color: #f9f9f9;
+            border: 2px solid #e6e7e8;
+            border-radius: 10px;
+            margin: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            flex-grow: 1;
+        }
+
+        /* Button container */
+        #button-container {
+            width: 200px;
+            padding: 20px;
+            flex-shrink: 0;
+        }
+
+        .embed-button {
+            display: block;
+            margin: 5px 0;
+            padding: 10px;
+            background-color: rgba(25, 118, 210, 0.5); /* Transparent blue background */
+            color: #fff;
+            text-align: center;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.2s;
+        }
+
+        .embed-button:hover {
+            background-color: rgba(21, 101, 192, 0.8); /* Slightly darker transparent blue */
+        }
+
+        /* Embedded content area */
+        #embedded-content {
+            padding: 20px;
+            background-color: #f9f9f9;
+            border: 2px solid #e6e7e8;
+            border-radius: 10px;
+            flex-grow: 1;
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="button-container">
+            <!-- List of buttons -->
+            <div class="embed-button" onclick="embedContent('https://pogmath.glitch.me/')">request desktop</div>
+        </div>
+        
+        <div id="embedded-content">
+            <!-- Embedded content will be displayed here -->
+        </div>
+    </div>
+
+    <script>
+        function embedContent(url) {
+            // Clear the current embedded content
+            document.getElementById("embedded-content").innerHTML = "";
+            
+            // Create an iframe element to embed the content
+            var iframe = document.createElement("iframe");
+            iframe.src = url;
+            
+            // Append the iframe to the embedded-content div
+            document.getElementById("embedded-content").appendChild(iframe);
+        }
+    </script>
+</body>
+</html>
