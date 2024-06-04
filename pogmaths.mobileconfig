@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>PayloadContent</key>
+		<array>
+			<dict>
+				<key>FullScreen</key>
+				<true />
+				<key>Icon</key>
+				<data>UklGRmAEAABXRUJQVlA4IFQEAACQFgCdASpgAGAAPm0uk0YkIqGhKdoseIANiWkAFtYspPrHQ5eED4P8Pwg7Uu6EY1/0n2iehRqI+qH33zNuK87287X/P+0n4x/oT0AfRn/Z9VnrC+hH+tiKaokObD8ByhVBo9IF5h9H8/QDusmiPyT7o1WF0soSxUnuBT1LTCwXcoWgPNCg9MdSdo7UDtSxDXLLIiGwfNBwqJ6Nc8quQSI1UtCj5U0MBv1P2YIRhiptvQE/wR/LfM0W8l3ocAAA/v02bCUlV6fdPlP9rDHYxTvdz+m/iO5q6XLPVql79olf8xMwS0h1d8gIigRFnlnPsepIYORLjOt7meNxk5/1OlOwiEiyef6FPzxUKvn5HQEecaktOaajctfeyS7uBlNOMvE4eTscMp3qYuaGmU8QMOghGeZiW7vavQMK5kDlOgWkjnOxJESFCeGOW1GCpbClGniiYsQugy7ObsqGmbFpGRZ7nkeozUZDwbRXtLs8HeNExPJMPdybGOzFKkurB9tM0UHsSu58ui5IOB5P+rJ/pID3AcyVPeJQTrDk0GBw8T/caeVI1//AMlv5fyI+ndP/0D01QELgWnxQ64DZ4S2sz/rKBKwNtXTyTKH/6EBmPEWuoShQlNiliyPDoT8fO2bWGmUMSfr95yLt9vZK6qyldr8ommvqU/vl0zjbeGr1jYYvrRecQsS/LacdgjKzHaR+XPoFVs2whobR/smgmdYGTUAbP7LvJJ/+6nZdBKxc59rS+eShbri847ewjf6FbFwlqwPraOcipOcNtFFcBYXVc9dHS8rin/Xq144WZzOTD4vJxaAIw2g297qOXLjSjJWP+t78AdQcWQYX/T3A1OOzmrRRRUF96bz7uCN1zV9tsXsrQ6Q1tmCBtSmJQAJMaNUFmY/689MbrdVlHFgxPWwTfOIsiImMQWS2YKWmaP+8vusN4sAEG0l2NCa0jJOuL8lWBrdjHD+wkcipLB50vXlM2HFHJsjBSPGALRtaZnZbbqTdYnJ8NhaseQLA9RP1xXh+e+wOCgcYUFaPiXRCW6HTaV7tXrJLf//Se1Yaq+P/LAWvPAxGuabxV8isf/cJ8vwuOiu0KcGUajPuPftffFiq3KzGTVReqNggn7PatXNDumc4evdAeUiA9y5+ooV5phROaOo4czRdDYAwzC621qv/awnvGXTWAPk/t7m+6md3GABIu+6dIik8idjWj7FHr8zXH7phs1kDhPkB8bMCzu6upImqRKDPUGGRXFgE8a0zob7/V0giP6kNRpCv3s9DecSpDTfYAlKDx9tC1Ztn9/06OvMgL3kR5wU51V6pfgMnMwR8TGuRaMm4WOlLWiC1MzSnoFI0DH09cVnaNWJpt8Xncbb10BIVOAqqOziCKVDIiIyP1gF+9czBekFBS/ZcQMqkYd/8QrKeYeXk3/FBJAXgBKMNNDPSB6E1uKO6yfAVtyiurr4tZFHbGjRYCKn2x2IAPAGOqAAA</data>
+				<key>Label</key>
+				<string>pogmaths</string>
+				<key>PayloadDisplayName</key>
+				<string>Web Clip #1</string>
+				<key>PayloadIdentifier</key>
+				<string>com.apple.webClip.managed.991c12ff-2599-4b9b-adc9-4a20ae4f7411</string>
+				<key>PayloadType</key>
+				<string>com.apple.webClip.managed</string>
+				<key>PayloadUUID</key>
+				<string>4791f670-a743-411a-a814-7a12dcf0b06d</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+				<key>URL</key>
+				<string>https://lightofsnow1.github.io/SevereFractalActivecell/</string>
+			</dict>
+		</array>
+		<key>PayloadDisplayName</key>
+		<string>pogmaths</string>
+		<key>PayloadIdentifier</key>
+		<string>DESKTOP-UGE14QK.71e0ce34-ea5a-4c42-b2c2-37cb656e17ab</string>
+		<key>PayloadType</key>
+		<string>Configuration</string>
+		<key>PayloadUUID</key>
+		<string>cd4581c4-cdab-409f-a1c2-a7b9e256eb12</string>
+		<key>PayloadVersion</key>
+		<integer>1</integer>
+	</dict>
+</plist>
