@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style type="text/css">
+        iframe {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            z-index: 1; /* Set the z-index to 1 for the iframe */
+        }
+    </style>
+</head>
+<body>
+    <iframe src="https://t-rex.vercel.app/" frameborder="0" scrolling="no" width="100%" height="100%" loading="lazy" id="myIframe"></iframe>
+
+    <script>
+        // Function to simulate pressing the spacebar
+        function pressSpace() {
+            var e = new KeyboardEvent('keydown', {
+                code: 'Space',
+                key: ' ',
+                keyCode: 32,
+                which: 32,
+                charCode: 32,
+                bubbles: true
+            });
+            document.dispatchEvent(e);
+        }
+
+        // Add a click event listener to the iframe
+        var iframe = document.getElementById('myIframe');
+        iframe.addEventListener('click', pressSpace);
+    </script>
+</body>
+</html>
